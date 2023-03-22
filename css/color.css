@@ -14,16 +14,20 @@
     color: white;
 }
 
-.bg-gray {
-    background-color: #222;
-}
-
 .bg-black {
     background-color: black;
 }
 
 .fg-black {
     color: black;
+}
+
+.bg-lightGray {
+    background-color: lightgray;
+}
+
+.bg-gray {
+    background-color: #222;
 }
 
 

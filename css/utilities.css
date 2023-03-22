@@ -141,6 +141,10 @@ body {
     gap: 2rem;
 }
 
-.height200 {
-    height: 15vh;
+.height80 {
+    height: 80vh;
+}
+
+.height20 {
+    height: 20vh;
 }
