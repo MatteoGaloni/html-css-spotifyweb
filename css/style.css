@@ -8,12 +8,22 @@ main {
 }
 
 /* *****SIDEBAR***** */
+
+.display {
+    display: none;
+}
+
 .sidebar {
     width: 50px;
 }
 
 a>img {
     width: 30px;
+}
+
+#bigLogo {
+    padding: 0.5rem;
+    width: 80%;
 }
 
 
@@ -75,6 +85,10 @@ footer {
     /* HEADER */
 
     /* MAIN CONTENT */
+
+    .display {
+        display: block;
+    }
 
     .sidebar {
         width: 200px;
