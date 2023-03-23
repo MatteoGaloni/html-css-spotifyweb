@@ -7,9 +7,18 @@ main {
     height: calc(100vh - 100px)
 }
 
+/* *****SIDEBAR***** */
 .sidebar {
     width: 50px;
 }
+
+#sideBarNavigation>img {
+    width: 15%;
+}
+
+
+
+/* *****MAINCONTAINER***** */
 
 .mainContainer {
     width: calc(100% - 50px);
