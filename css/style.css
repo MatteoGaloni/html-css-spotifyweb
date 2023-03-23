@@ -24,6 +24,7 @@ main {
 .mainContent {
     margin-top: 80px;
     height: calc(100% - 80px);
+    overflow-y: auto;
 }
 
 
