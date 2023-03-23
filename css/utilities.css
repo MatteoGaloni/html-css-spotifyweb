@@ -9,6 +9,10 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+ul {
+    list-style: none;
+}
+
 /******** FLEX **********/
 
 .flex {
@@ -141,10 +145,18 @@ body {
     gap: 2rem;
 }
 
-.height80 {
+.height100 {
+    height: 100%;
+}
+
+.height75 {
+    height: 75%;
+}
+
+/* .height80 {
     height: 80vh;
 }
 
 .height20 {
     height: 20vh;
-}
+} */

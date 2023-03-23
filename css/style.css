@@ -1,0 +1,94 @@
+/* SMALL MOBILE DEFAULT LAYOUT */
+
+/* *****MAIN***** */
+
+main {
+    width: 100%;
+    height: calc(100vh - 100px)
+}
+
+.sidebar {
+    width: 50px;
+}
+
+.mainContainer {
+    width: calc(100% - 50px);
+}
+
+.callToAction {
+    position: fixed;
+    height: 80px;
+    width: 100%;
+}
+
+.mainContent {
+    margin-top: 80px;
+    height: calc(100% - 80px);
+}
+
+
+/* ******FOOTER****** */
+
+footer {
+    height: 100px;
+}
+
+
+
+/********************************/
+/****** RESPONSIVE: MOBILE ******/
+@media screen and (min-width: 480px) {
+
+    /* GENERIC UI */
+
+    /* HEADER */
+
+    /* MAIN CONTENT */
+
+    .sidebar {
+        width: 200px;
+    }
+
+    .mainContainer {
+        width: calc(100% - 200px);
+    }
+
+}
+
+
+
+/********************************/
+/****** RESPONSIVE: TABLET ******/
+@media screen and (min-width: 768px) {
+
+    /* GENERIC UI */
+
+    /* HEADER */
+
+    /* MAIN CONTENT */
+
+}
+
+/*********************************/
+/****** RESPONSIVE: DESKTOP ******/
+@media screen and (min-width: 992px) {
+
+    /* GENERIC UI */
+
+    /* HEADER */
+
+    /* MAIN CONTENT */
+
+}
+
+
+/***************************************/
+/****** RESPONSIVE: LARGE DESKTOP ******/
+@media screen and (min-width: 1201px) {
+
+    /* GENERIC UI */
+
+    /* HEADER */
+
+    /* MAIN CONTENT */
+}

@@ -2,13 +2,7 @@
 /******** LAYOUTING **********/
 /*****************************/
 
-
-
-/****** MOBILE FIRST ******/
-.container {
-    max-width: 600px;
-    margin: 0 auto;
-}
+/* RESPONSIVE SMALL MOBILE DEFAULT */
 
 .col-100-xs {
     width: 100%;
@@ -16,6 +10,14 @@
 
 .col-1-2-xs {
     width: calc(100% / 2);
+}
+
+.col-1-4-xs {
+    width: calc(100% / 4);
+}
+
+.col-1-6-xs {
+    width: calc(100% / 6);
 }
 
 .col-1-3-xs {
@@ -27,11 +29,12 @@
 }
 
 
-/****** RESPONSIVE: TABLET ******/
-@media screen and (min-width: 768px) {
-    .container {
-        max-width: 800px;
-    }
+
+
+
+/****** RESPONSIVE: MOBILE ******/
+
+@media screen and (min-width: 480px) {
 
     .col-100-sm {
         width: 100%;
@@ -41,6 +44,14 @@
         width: calc(100% / 2);
     }
 
+    .col-1-4-sm {
+        width: calc(100% / 4);
+    }
+
+    .col-1-6-sm {
+        width: calc(100% / 6);
+    }
+
     .col-1-3-sm {
         width: calc(100% / 3);
     }
@@ -48,14 +59,12 @@
     .col-2-3-sm {
         width: calc(100% / 3 * 2);
     }
+
 }
 
 
-/****** RESPONSIVE: DESKTOP ******/
-@media screen and (min-width: 992px) {
-    .container {
-        max-width: 1000px;
-    }
+/****** RESPONSIVE: TABLET ******/
+@media screen and (min-width: 768px) {
 
     .col-100-md {
         width: 100%;
@@ -65,6 +74,14 @@
         width: calc(100% / 2);
     }
 
+    .col-1-4-md {
+        width: calc(100% / 4);
+    }
+
+    .col-1-6-md {
+        width: calc(100% / 6);
+    }
+
     .col-1-3-md {
         width: calc(100% / 3);
     }
@@ -72,14 +89,11 @@
     .col-2-3-md {
         width: calc(100% / 3 * 2);
     }
-
 }
 
-/****** RESPONSIVE: LARGE DESKTOP ******/
-@media screen and (min-width: 1201px) {
-    .container {
-        max-width: 1300px;
-    }
+
+/****** RESPONSIVE: DESKTOP ******/
+@media screen and (min-width: 992px) {
 
     .col-100-lg {
         width: 100%;
@@ -89,11 +103,49 @@
         width: calc(100% / 2);
     }
 
+    .col-1-4-lg {
+        width: calc(100% / 4);
+    }
+
+    .col-1-6-lg {
+        width: calc(100% / 6);
+    }
+
     .col-1-3-lg {
         width: calc(100% / 3);
     }
 
     .col-2-3-lg {
+        width: calc(100% / 3 * 2);
+    }
+
+}
+
+/****** RESPONSIVE: LARGE DESKTOP ******/
+@media screen and (min-width: 1201px) {
+
+
+    .col-100-xl {
+        width: 100%;
+    }
+
+    .col-1-2-xl {
+        width: calc(100% / 2);
+    }
+
+    .col-1-4-xl {
+        width: calc(100% / 4);
+    }
+
+    .col-1-6-xl {
+        width: calc(100% / 6);
+    }
+
+    .col-1-3-xl {
+        width: calc(100% / 3);
+    }
+
+    .col-2-3-xl {
         width: calc(100% / 3 * 2);
     }
 }

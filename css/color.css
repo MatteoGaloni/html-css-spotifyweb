@@ -30,6 +30,20 @@
     background-color: #222;
 }
 
+.bg-green {
+    background-color: green;
+}
+
+.bg-pink {
+    background-color: pink;
+}
+
+.bg-blue {
+    background-color: blue;
+}
+
+
+
 
 /* .bg-primary {
     background-color: var(--primary-col);

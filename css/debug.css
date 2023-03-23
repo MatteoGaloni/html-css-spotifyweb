@@ -1,20 +1,32 @@
 /********* MEDIA QUERIES *********/
-/* MOBILE FIRST */
+
+/* SMALL MOBILE default */
+
 body.debug {
     background: red;
 }
 
-/* TABLET */
-@media screen and (min-width: 768px) and (max-width: 992px) {
+
+
+/* MOBILE*/
+@media screen and (min-width: 480px) {
     body.debug {
         background: orange;
     }
 }
 
-/* DESKTOP */
-@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+/* TABLET */
+@media screen and (min-width: 768px) {
     body.debug {
         background: yellow;
+    }
+}
+
+/* DESKTOP */
+@media screen and (min-width: 992px) {
+    body.debug {
+        background: yellowgreen;
     }
 }
 
