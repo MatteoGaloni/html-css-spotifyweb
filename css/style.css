@@ -27,6 +27,14 @@ main {
     overflow-y: auto;
 }
 
+#navigationLink {
+    padding: 0.5rem
+}
+
+#navigationLink>a {
+    padding: 0.5rem
+}
+
 
 /* ******FOOTER****** */
 
