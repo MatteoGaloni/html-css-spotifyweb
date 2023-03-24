@@ -47,6 +47,10 @@ a {
     justify-content: space-around;
 }
 
+.justifyCenter {
+    justify-content: center;
+}
+
 
 .align-center {
     align-items: center;
