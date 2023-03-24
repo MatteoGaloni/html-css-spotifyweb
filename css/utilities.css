@@ -43,6 +43,10 @@ a {
     justify-content: space-evenly
 }
 
+.spaceAround {
+    justify-content: space-around;
+}
+
 
 .align-center {
     align-items: center;

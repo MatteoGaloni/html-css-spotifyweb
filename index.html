@@ -27,26 +27,26 @@
 
             <!-- TOP and Medium SIDE BAR -->
             <div>
-                <div class="displayNone-xs">
+                <div class="displayNone-xs displayBlock-sm">
                     <img id="bigLogo" src="./img/logo.svg" alt="">
                 </div>
                 <ul>
-                    <li>
+                    <li class="displayNone-sm">
                         <a class="flex" href="#">
                             <img src="./img/logo-small.svg" alt="homeLogo">
-                            <span class="displayNone-xs">testo</span>
+                            <span class="displayNone-xs displayBlock-sm">testo</span>
                         </a>
                     </li>
                     <li>
                         <a class="flex" href="#">
                             <img src="./img/home.svg" alt="homeLogo">
-                            <span class="displayNone-xs">testo</span>
+                            <span class="displayNone-xs displayBlock-sm">testo</span>
                         </a>
                     </li>
                     <li>
                         <a class="flex" href="#">
                             <img src="./img/search.svg" alt="homeLogo">
-                            <span class="displayNone-xs">testo</span>
+                            <span class="displayNone-xs displayBlock-sm">testo</span>
                         </a>
                     </li>
                     <li>
@@ -66,7 +66,14 @@
                             <span><i class="fa-sharp fa-regular fa-square-plus" style="color: #909398;"></i></span>
                             <span class="pl-05">Crea Playlist</span>
                         </div>
-                        <ul>
+                        <ul id="playlistItem">
+                            <li>Nome Playlist</li>
+                            <li>Nome Playlist</li>
+                            <li>Nome Playlist</li>
+                            <li>Nome Playlist</li>
+                            <li>Nome Playlist</li>
+                            <li>Nome Playlist</li>
+                            <li>Nome Playlist</li>
                             <li>Nome Playlist</li>
                             <li>Nome Playlist</li>
                             <li>Nome Playlist</li>
@@ -192,27 +199,15 @@
                             <p>Subtitle</p>
                         </div>
                 </section>
-
-                <!-- <nav>
-                    ciao
-                </nav>
-                <span>IN EVIDENZA</span>
-                <span>IN EVIDENZA</span>
-                <span>IN EVIDENZA</span>
-                <span>IN EVIDENZA</span>
-                <span>IN EVIDENZA</span>
-                <span>IN EVIDENZA</span> -->
-
             </div>
         </section>
     </main>
 
-    <footer class="bg-bottomBar fg-white ">
-        <div class="bottomBar height100 flex space-between align-center">
-            <div class="leftIcon height100 col-1-3-xs flex">
-                <!-- <img class="imgSinister" src="img/sinister.jpeg" alt=""> -->
-                <div class="flex">
-                    <img src="./img/sinister.jpeg" alt="">
+    <footer class="bg-gray fg-white ">
+        <div class="bottomBar height100 flex space-between">
+            <div class="leftIcon height100 col-1-3-xs flex align-center">
+                <div class="flex align-center">
+                    <img id="imgBottomBar" src="./img/sinister.jpeg" alt="">
                     <div class="flex flex-column">
                         <span>Sinister</span>
                         <span>Brano</span>
@@ -224,23 +219,23 @@
                     <span>cartella</span>
                 </div>
             </div>
-            <div class="centerIcon height100 col-1-3-xs pa-1 textAlignCenter">
-                <div>
+            <div class="centerIcon height100 col-1-3-xs pa-1 flex flex-column spaceAround ">
+                <div class="flex spaceEvenly">
                     <span><i class="fa-solid fa-shuffle"></i></span>
                     <span><i class="fa-solid fa-backward-step"></i></span>
                     <span><i class="fa-regular fa-circle-play"></i></span>
                     <span><i class="fa-solid fa-forward-step"></i></span>
                     <span><i class="fa-solid fa-rotate-right"></i></span>
                 </div>
-                <div>
+                <div class="flex align-center spaceAround">
                     <span>0:25</span>
-                    <div>ciao
-
+                    <div class="timeBar">
+                        <div class="timeBarSon"></div>
                     </div>
                     <span>4:35</span>
                 </div>
             </div>
-            <div class="rightIcon height100 col-1-3-xs pa-1">
+            <div class="rightIcon col-1-3-xs pa-1 flex align-center spaceEvenly">
                 <span><i class="fa-solid fa-shuffle"></i></span>
                 <span><i class="fa-solid fa-backward-step"></i></span>
                 <span><i class="fa-regular fa-circle-play"></i></span>

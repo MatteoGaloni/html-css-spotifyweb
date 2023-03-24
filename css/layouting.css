@@ -67,6 +67,10 @@
     .displayBlock-sm {
         display: block;
     }
+
+    .displayNone-sm {
+        display: none;
+    }
 }
 
 

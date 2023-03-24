@@ -1,4 +1,7 @@
 /* SMALL MOBILE DEFAULT LAYOUT */
+body {
+    font-size: 0.8rem;
+}
 
 /* *****MAIN***** */
 
@@ -16,6 +19,11 @@ main {
 
 a>img {
     width: 30px;
+}
+
+#playlistItem {
+    overflow-y: auto;
+    height: 200px;
 }
 
 #bigLogo {
@@ -72,12 +80,6 @@ a>img {
 
 }
 
-/* .card:hover+.playOnHover {
-    color: red;
-    display: block;
-
-} */
-
 .card>img {
     width: 100%;
 }
@@ -93,6 +95,26 @@ footer {
     height: 100px;
 }
 
+#imgBottomBar {
+    height: 40px;
+}
+
+.timeBar {
+    background-color: grey;
+    width: 36%;
+    height: 4px;
+    border-radius: 8px;
+
+}
+
+.timeBarSon {
+    background-color: lightgray;
+    width: 30%;
+    height: 100%;
+    border-radius: 8px;
+
+}
+
 
 
 /********************************/
@@ -104,14 +126,6 @@ footer {
     /* HEADER */
 
     /* MAIN CONTENT */
-    /* 
-    .displayBl {
-        display: block;
-    }
-
-    .displayNone {
-        display: none;
-    } */
 
     .sidebar {
         width: 200px;
