@@ -23,7 +23,7 @@
     <!-- <header></header> -->
 
     <main class="flex">
-        <section class="sidebar flex flex-column space-between bg-black fg-white pa-1">
+        <section class="sidebar flex flex-column space-between bg-black fg-white pa-1 fg-grey">
 
             <!-- TOP and Medium SIDE BAR -->
             <div>
@@ -60,9 +60,12 @@
                 <!-- MIDDLE SIDE BAR -->
 
                 <div class="flex flex-column space-between">
-                    <div class="displayNone-xs">
-                        <h4>PLAYLIST</h4>
-                        <span>+</span><span>Crea Play list</span>
+                    <div class="displayNone-xs displayBlock-sm">
+                        <h4 class="margin05Y">PLAYLIST</h4>
+                        <div class="flex align-center margin05Y">
+                            <span><i class="fa-sharp fa-regular fa-square-plus" style="color: #909398;"></i></span>
+                            <span class="pl-05">Crea Playlist</span>
+                        </div>
                         <ul>
                             <li>Nome Playlist</li>
                             <li>Nome Playlist</li>
@@ -79,11 +82,15 @@
             <!-- Bottom Side Bar -->
 
             <div class="AppDownloadLink">
-                <span><i class="fa-solid fa-circle-arrow-down"></i></span>
-                <span class="displayNone-xs">Installa app</span>
-                <hr class="margin05Y displayNone-xs">
-                <span><i class="fa-solid fa-circle-user"></i></span>
-                <span class="displayNone-xs displayBlock-sm">John Doe</span>
+                <div class="flex">
+                    <span><i class="fa-solid fa-circle-arrow-down"></i></span>
+                    <span class="displayNone-xs displayBlock-sm pl-05">Installa app</span>
+                </div>
+                <hr class="margin05Y displayNone-xs displayBlock-sm">
+                <div class="flex">
+                    <span><i class="fa-solid fa-circle-user"></i></span>
+                    <span class="displayNone-xs displayBlock-sm pl-05">John Doe</span>
+                </div>
             </div>
 
         </section>

@@ -22,6 +22,10 @@
     color: black;
 }
 
+.fg-grey {
+    color: #7d7f84;
+}
+
 .bg-lightGray {
     background-color: lightgray;
 }
