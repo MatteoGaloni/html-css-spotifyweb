@@ -42,6 +42,18 @@
     background-color: blue;
 }
 
+.bg-bottomBar {
+    background-color: #282828;
+}
+
+.bg-mainContent {
+    background-color: #141922;
+}
+
+.bg-CalltoAction {
+    background-color: rgba(0, 0, 0, 0.201);
+}
+
 
 
 

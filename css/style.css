@@ -9,9 +9,6 @@ main {
 
 /* *****SIDEBAR***** */
 
-.display {
-    display: none;
-}
 
 .sidebar {
     width: 50px;
@@ -40,10 +37,21 @@ a>img {
     width: 100%;
 }
 
+#upgradeBtn {
+    border: 1px solid;
+
+}
+
 .mainContent {
     margin-top: 80px;
     height: calc(100% - 80px);
     overflow-y: auto;
+}
+
+.playOnHover {
+    position: absolute;
+    left: calc(50% - 8px);
+    top: calc(50% - 31px);
 }
 
 #navigationLink {
@@ -56,8 +64,15 @@ a>img {
 
 .card {
     padding: 1rem;
+    position: relative;
 
 }
+
+/* .card:hover+.playOnHover {
+    color: red;
+    display: block;
+
+} */
 
 .card>img {
     width: 100%;
@@ -85,10 +100,14 @@ footer {
     /* HEADER */
 
     /* MAIN CONTENT */
-
-    .display {
+    /* 
+    .displayBl {
         display: block;
     }
+
+    .displayNone {
+        display: none;
+    } */
 
     .sidebar {
         width: 200px;
@@ -111,6 +130,8 @@ footer {
     /* HEADER */
 
     /* MAIN CONTENT */
+
+
 
 }
 

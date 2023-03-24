@@ -28,6 +28,10 @@
     width: calc(100% / 3 * 2);
 }
 
+.displayNone-xs {
+    display: none;
+}
+
 
 
 
@@ -60,6 +64,9 @@
         width: calc(100% / 3 * 2);
     }
 
+    .displayBlock-sm {
+        display: block;
+    }
 }
 
 

@@ -23,84 +23,81 @@
     <!-- <header></header> -->
 
     <main class="flex">
-        <section class="sidebar bg-black fg-white">
-            <div class="display">
-                <img id="bigLogo" src="./img/logo.svg" alt="">
-            </div>
-            <ul>
-                <li>
-                    <a class="flex" href="#">
-                        <img src="./img/logo-small.svg" alt="homeLogo">
-                        <span class="display">testo</span>
-                    </a>
-                </li>
-                <li>
-                    <a class="flex" href="#">
-                        <img src="./img/home.svg" alt="homeLogo">
-                        <span class="display">testo</span>
-                    </a>
-                </li>
-                <li>
-                    <a class="flex" href="#">
-                        <img src="./img/search.svg" alt="homeLogo">
-                        <span class="display">testo</span>
-                    </a>
-                </li>
-                <li>
-                    <a class="flex" href="#">
-                        <img src="./img/libreria.svg" alt="homeLogo">
-                        <span class="display">testo</span>
-                    </a>
-                </li>
+        <section class="sidebar flex flex-column space-between bg-black fg-white pa-1">
 
-
-
-            </ul>
-
-            <!-- <div class="sideBArNavigationLeft">
-                <img src="./img/logo-small.svg" alt="smallSpotifyLogo">
-                <img src="./img/home.svg" alt="home">
-                <img src="./img/search.svg" alt="search">
-                <img src="./img/libreria.svg" alt="books">
-            </div> -->
-            <!-- <ul>
-                <li>Home</li>
-                <li>Home</li>
-                <li>Home</li>
-            </ul> -->
-            <br>
-            <div class="flex flex-column space-between">
-                <div>
-                    <h5>PLAYLIST</h5>
-                    <!-- <span>+</span><span>Crea Play list</span> -->
-                    <!-- <ul>
-                        <li>Nome Playlist</li>
-                        <li>Nome Playlist</li>
-                        <li>Nome Playlist</li>
-                        <li>Nome Playlist</li>
-                        <li>Nome Playlist</li>
-                        <li>Nome Playlist</li>
-                        <li>Nome Playlist</li>
-                    </ul> -->
+            <!-- TOP and Medium SIDE BAR -->
+            <div>
+                <div class="displayNone-xs">
+                    <img id="bigLogo" src="./img/logo.svg" alt="">
                 </div>
+                <ul>
+                    <li>
+                        <a class="flex" href="#">
+                            <img src="./img/logo-small.svg" alt="homeLogo">
+                            <span class="displayNone-xs">testo</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="flex" href="#">
+                            <img src="./img/home.svg" alt="homeLogo">
+                            <span class="displayNone-xs">testo</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="flex" href="#">
+                            <img src="./img/search.svg" alt="homeLogo">
+                            <span class="displayNone-xs">testo</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="flex" href="#">
+                            <img src="./img/libreria.svg" alt="homeLogo">
+                            <span class="displayNone-xs">testo</span>
+                        </a>
+                    </li>
+                </ul>
 
-                <div class="AppDownloadLink">
-                    <span>installa App</span>
-                    <hr>
-                    <img src="" alt="">
-                    <span>John Doe</span>
+                <!-- MIDDLE SIDE BAR -->
+
+                <div class="flex flex-column space-between">
+                    <div class="displayNone-xs">
+                        <h4>PLAYLIST</h4>
+                        <span>+</span><span>Crea Play list</span>
+                        <ul>
+                            <li>Nome Playlist</li>
+                            <li>Nome Playlist</li>
+                            <li>Nome Playlist</li>
+                            <li>Nome Playlist</li>
+                            <li>Nome Playlist</li>
+                            <li>Nome Playlist</li>
+                            <li>Nome Playlist</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
+
+            <!-- Bottom Side Bar -->
+
+            <div class="AppDownloadLink">
+                <span><i class="fa-solid fa-circle-arrow-down"></i></span>
+                <span class="displayNone-xs">Installa app</span>
+                <hr class="margin05Y displayNone-xs">
+                <span><i class="fa-solid fa-circle-user"></i></span>
+                <span class="displayNone-xs displayBlock-sm">John Doe</span>
+            </div>
+
         </section>
 
-        <section class="mainContainer bg-gray">
-            <div class="callToAction bg-blue">
-                <a href="#"><button>EFFETTUA L'UPGRADE</button></a>
+        <section class="mainContainer bg-mainContent fg-white">
+            <div class="callToAction bg-CalltoAction">
+                <div><a href="#"><button>EFFETTUA L'UPGRADE</button></a></div>
             </div>
 
-            <div class="mainContent bg-pink">
+            <div class="mainContent">
                 <nav id="navigationLink" class="flex flex-wrap spaceEvenly textAlignCenter">
-                    <a class="col-1-4-xs col-1-3-sm col-1-5-md col-1-6-lg" href="#">PODCAST</a>
+                    <a class="col-1-4-xs col-1-3-sm col-1-5-md col-1-6-lg coloredUnderscore" href="#">
+                        PODCAST
+                    </a>
                     <a class="col-1-4-xs col-1-3-sm col-1-5-md col-1-6-lg" href="#">PODCAST</a>
                     <a class="col-1-4-xs col-1-3-sm col-1-5-md col-1-6-lg" href="#">PODCAST</a>
                     <a class="col-1-4-xs col-1-3-sm col-1-5-md col-1-6-lg" href="#">PODCAST</a>
@@ -110,6 +107,8 @@
                 <h2 class="pa-1">RECENTLY PLAYED</h2>
                 <section id="RecentlyPlayedWrapper" class="flex flex-wrap">
                     <div class="card col-1-2-xs col-1-4-md col-1-6-lg">
+                        <div class="playOnHover"><i class="fa-regular fa-circle-play fa-beat"
+                                style="color: #fcfcfd;"></i></div>
                         <img src="./img/metal_lifting.jpg" alt="albumCover">
                         <div class="textAlignCenter">
                             <h4>Heavy Metal</h4>
@@ -117,35 +116,35 @@
                         </div>
                     </div>
                     <div class="card col-1-2-xs col-1-4-md col-1-6-lg">
-                        <img src="./img/metal_lifting.jpg" alt="albumCover">
+                        <img src="./img/stranger.jpeg" alt="albumCover">
                         <div class="textAlignCenter">
                             <h4>Heavy Metal</h4>
                             <p>Subtitle</p>
                         </div>
                     </div>
                     <div class="card col-1-2-xs col-1-4-md col-1-6-lg">
-                        <img src="./img/metal_lifting.jpg" alt="albumCover">
+                        <img src="./img/aquietplace.jpeg" alt="albumCover">
                         <div class="textAlignCenter">
                             <h4>Heavy Metal</h4>
                             <p>Subtitle</p>
                         </div>
                     </div>
                     <div class="card col-1-2-xs col-1-4-md col-1-6-lg">
-                        <img src="./img/metal_lifting.jpg" alt="albumCover">
+                        <img src="./img/split.jpeg" alt="albumCover">
                         <div class="textAlignCenter">
                             <h4>Heavy Metal</h4>
                             <p>Subtitle</p>
                         </div>
                     </div>
                     <div class="card col-1-2-xs col-1-4-md col-1-6-lg">
-                        <img src="./img/metal_lifting.jpg" alt="albumCover">
+                        <img src="./img/cure.jpeg" alt="albumCover">
                         <div class="textAlignCenter">
                             <h4>Heavy Metal</h4>
                             <p>Subtitle</p>
                         </div>
                     </div>
                     <div class="card col-1-2-xs col-1-4-md col-1-6-lg">
-                        <img src="./img/metal_lifting.jpg" alt="albumCover">
+                        <img src="./img/sinister.jpeg" alt="albumCover">
                         <div class="textAlignCenter">
                             <h4>Heavy Metal</h4>
                             <p>Subtitle</p>
@@ -156,14 +155,14 @@
                 <p class="pl-1">Più ascolti, più accurati saranno i tuoi suggerimenti</p>
                 <section id="UserSuggestionWrapper" class="flex flex-wrap">
                     <div class="card col-1-2-xs col-1-4-md col-1-6-lg">
-                        <img src="./img/metal_lifting.jpg" alt="albumCover">
+                        <img src="./img/radar.jpeg" alt="albumCover">
                         <div class="textAlignCenter">
                             <h4>Heavy Metal</h4>
                             <p>Subtitle</p>
                         </div>
                     </div>
                     <div class="card col-1-2-xs col-1-4-md col-1-6-lg">
-                        <img src="./img/metal_lifting.jpg" alt="albumCover">
+                        <img src="./img/mixdaily.jpeg" alt="albumCover">
                         <div class="textAlignCenter">
                             <h4>Heavy Metal</h4>
                             <p>Subtitle</p>
@@ -173,14 +172,14 @@
                 <p class="pl-1">Più ascolti, più accurati saranno i tuoi suggerimenti</p>
                 <section id="popularArtist" class="flex flex-wrap">
                     <div class="card col-1-2-xs col-1-4-md col-1-6-lg">
-                        <img src="./img/metal_lifting.jpg" alt="albumCover">
+                        <img src="./img/youg.jpeg" alt="albumCover">
                         <div class="textAlignCenter">
                             <h4>Heavy Metal</h4>
                             <p>Subtitle</p>
                         </div>
                     </div>
                     <div class="card col-1-2-xs col-1-4-md col-1-6-lg">
-                        <img src="./img/metal_lifting.jpg" alt="albumCover">
+                        <img src="./img/einaudi.jpeg" alt="albumCover">
                         <div class="textAlignCenter">
                             <h4>Heavy Metal</h4>
                             <p>Subtitle</p>
@@ -201,9 +200,9 @@
         </section>
     </main>
 
-    <footer class="bg-lightGray fg-white ">
+    <footer class="bg-bottomBar fg-white ">
         <div class="bottomBar height100 flex space-between align-center">
-            <!-- <div class="leftIcon height100 col-1-3-xs bg-green flex">
+            <div class="leftIcon height100 col-1-3-xs bg-green flex">
                 <img class="imgSinister" src="img/sinister.jpeg" alt="">
                 <div>
                     <div>Sinister</div>
@@ -220,7 +219,7 @@
             </div>
             <div class="rightIcon height100 bg-blue col-1-3-xs pa-1">
                 playbar
-            </div> -->
+            </div>
         </div>
 
     </footer>

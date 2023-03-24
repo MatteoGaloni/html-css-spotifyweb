@@ -11,10 +11,14 @@ body {
 
 ul {
     list-style: none;
-    padding: 0.5rem;
     gap: 1rem;
     display: flex;
     flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: #7d7f84;
 }
 
 .textAlignCenter {
@@ -153,6 +157,13 @@ ul {
 
 .pl-2 {
     padding-left: 2rem;
+}
+
+
+/* *******MArgin***** */
+
+.margin05Y {
+    margin: 0.5rem 0;
 }
 
 .gap-2 {
