@@ -29,12 +29,16 @@ a:hover {
     text-align: center;
 }
 
-.fontSize1-1rem {
-    font-size: 1.1rem;
+.fontSize0-9rem {
+    font-size: 0.9rem;
 }
 
 .fontSize0-6 {
     font-size: 0.6rem;
+}
+
+.fontSize1-1 {
+    font-size: 1.1rem;
 }
 
 /******** FLEX **********/
