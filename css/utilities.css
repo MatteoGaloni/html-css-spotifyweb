@@ -199,6 +199,10 @@ a:hover {
     margin: 0.5rem 0;
 }
 
+.marginTop05 {
+    margin: 0.5rem;
+}
+
 .gap-2 {
     gap: 2rem;
 }
