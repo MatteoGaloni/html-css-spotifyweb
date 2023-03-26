@@ -50,6 +50,7 @@ a>img {
 
 .callToAction {
     position: fixed;
+    z-index: 99;
     height: 80px;
     width: calc(100% - 50px);
 }
