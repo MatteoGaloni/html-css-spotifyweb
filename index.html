@@ -23,7 +23,7 @@
     <!-- <header></header> -->
 
     <main class="flex">
-        <section class="sidebar flex flex-column space-between bg-black fg-white pa-1 fg-grey">
+        <section class="sidebar flex flex-column space-between bg-black fg-white fg-grey">
 
             <!-- TOP and Medium SIDE BAR -->
             <div>
@@ -34,25 +34,24 @@
                     <li class="displayNone-sm">
                         <a class="flex" href="#">
                             <img src="./img/logo-small.svg" alt="homeLogo">
-                            <span class="displayNone-xs displayBlock-sm">testo</span>
                         </a>
                     </li>
                     <li>
-                        <a class="flex" href="#">
+                        <a class="flex align-center" href="#">
                             <img src="./img/home.svg" alt="homeLogo">
-                            <span class="displayNone-xs displayBlock-sm">testo</span>
+                            <span class="displayNone-xs displayBlock-sm">Home</span>
                         </a>
                     </li>
                     <li>
-                        <a class="flex" href="#">
+                        <a class="flex align-center" href="#">
                             <img src="./img/search.svg" alt="homeLogo">
-                            <span class="displayNone-xs displayBlock-sm">testo</span>
+                            <span class="displayNone-xs displayBlock-sm">Cerca</span>
                         </a>
                     </li>
                     <li>
-                        <a class="flex" href="#">
+                        <a class="flex align-center" href="#">
                             <img src="./img/libreria.svg" alt="homeLogo">
-                            <span class="displayNone-xs">testo</span>
+                            <span class="displayNone-xs displayBlock-sm">La tua libreria</span>
                         </a>
                     </li>
                 </ul>
@@ -63,24 +62,41 @@
                     <div class="displayNone-xs displayBlock-sm">
                         <h4 class="margin05Y">PLAYLIST</h4>
                         <div class="flex align-center margin05Y">
-                            <span><i class="fa-sharp fa-regular fa-square-plus" style="color: #909398;"></i></span>
-                            <span class="pl-05">Crea Playlist</span>
+                            <a href="#"><span><i class="fa-sharp fa-regular fa-square-plus"
+                                        style="color: #909398;"></i></span></a>
+                            <a href="#"><span class="pl-05">Crea Playlist</span></a>
                         </div>
                         <ul id="playlistItem">
-                            <li>Nome Playlist</li>
-                            <li>Nome Playlist</li>
-                            <li>Nome Playlist</li>
-                            <li>Nome Playlist</li>
-                            <li>Nome Playlist</li>
-                            <li>Nome Playlist</li>
-                            <li>Nome Playlist</li>
-                            <li>Nome Playlist</li>
-                            <li>Nome Playlist</li>
-                            <li>Nome Playlist</li>
-                            <li>Nome Playlist</li>
-                            <li>Nome Playlist</li>
-                            <li>Nome Playlist</li>
-                            <li>Nome Playlist</li>
+                            <a href="#">
+                                <li>Nome Playlist</li>
+                            </a>
+                            <a href="#">
+                                <li>Nome Playlist</li>
+                            </a>
+                            <a href="#">
+                                <li>Nome Playlist</li>
+                            </a>
+                            <a href="#">
+                                <li>Nome Playlist</li>
+                            </a>
+                            <a href="#">
+                                <li>Nome Playlist</li>
+                            </a>
+                            <a href="#">
+                                <li>Nome Playlist</li>
+                            </a>
+                            <a href="#">
+                                <li>Nome Playlist</li>
+                            </a>
+                            <a href="#">
+                                <li>Nome Playlist</li>
+                            </a>
+                            <a href="#">
+                                <li>Nome Playlist</li>
+                            </a>
+                            <a href="#">
+                                <li>Nome Playlist</li>
+                            </a>
                         </ul>
                     </div>
                 </div>
@@ -90,8 +106,8 @@
 
             <div class="AppDownloadLink">
                 <div class="flex">
-                    <span><i class="fa-solid fa-circle-arrow-down"></i></span>
-                    <span class="displayNone-xs displayBlock-sm pl-05">Installa app</span>
+                    <a href="#"><span><i class="fa-solid fa-circle-arrow-down"></i></span></a>
+                    <a href="#"><span class="displayNone-xs displayBlock-sm pl-05">Installa app</span></a>
                 </div>
                 <hr class="margin05Y displayNone-xs displayBlock-sm">
                 <div class="flex">
@@ -104,28 +120,27 @@
 
         <!-- ***CALL TO ACTION*** -->
         <section class="mainContainer bg-mainContent fg-white">
-            <div class="callToAction bg-CalltoAction">
-                <div><a href="#"><button>EFFETTUA L'UPGRADE</button></a></div>
+            <div class="callToAction bg-CalltoAction pa-1">
+                <div><button id="upgradeBtn">EFFETTUA L'UPGRADE</button></div>
             </div>
 
             <!-- ***MAIN CONTENT**** -->
             <div class="mainContent">
                 <nav id="navigationLink" class="flex flex-wrap spaceEvenly textAlignCenter">
-                    <a class="col-1-4-xs col-1-3-sm col-1-5-md col-1-6-lg coloredUnderscore" href="#">
-                        PODCAST
-                    </a>
+                    <a class="col-1-4-xs col-1-3-sm col-1-5-md col-1-6-lg" href="#">IN EVIDENZA</a>
                     <a class="col-1-4-xs col-1-3-sm col-1-5-md col-1-6-lg" href="#">PODCAST</a>
-                    <a class="col-1-4-xs col-1-3-sm col-1-5-md col-1-6-lg" href="#">PODCAST</a>
-                    <a class="col-1-4-xs col-1-3-sm col-1-5-md col-1-6-lg" href="#">PODCAST</a>
-                    <a class="col-1-4-xs col-1-3-sm col-1-5-md col-1-6-lg" href="#">PODCAST</a>
-                    <a class="col-1-4-xs col-1-3-sm col-1-5-md col-1-6-lg" href="#">PODCAST</a>
+                    <a class="col-1-4-xs col-1-3-sm col-1-5-md col-1-6-lg" href="#">CLASSIFICHE</a>
+                    <a class="col-1-4-xs col-1-3-sm col-1-5-md col-1-6-lg" href="#">GENERI E MOOD</a>
+                    <a class="col-1-4-xs col-1-3-sm col-1-5-md col-1-6-lg" href="#">NUOVE USCITE</a>
+                    <a class="col-1-4-xs col-1-3-sm col-1-5-md col-1-6-lg" href="#">SCOPRI</a>
                 </nav>
                 <h2 class="pa-1">RECENTLY PLAYED</h2>
                 <section id="RecentlyPlayedWrapper" class="flex flex-wrap">
                     <div class="card col-1-2-xs col-1-4-md col-1-6-lg">
-                        <div class="playOnHover"><i class="fa-regular fa-circle-play fa-beat"
-                                style="color: #fcfcfd;"></i></div>
                         <img src="./img/metal_lifting.jpg" alt="albumCover">
+                        <div class="playOnHover">
+                            <i class="fa-regular fa-circle-play"></i>
+                        </div>
                         <div class="textAlignCenter">
                             <h4>Heavy Metal</h4>
                             <p>Subtitle</p>
@@ -133,6 +148,9 @@
                     </div>
                     <div class="card col-1-2-xs col-1-4-md col-1-6-lg">
                         <img src="./img/stranger.jpeg" alt="albumCover">
+                        <div class="playOnHover">
+                            <i class="fa-regular fa-circle-play"></i>
+                        </div>
                         <div class="textAlignCenter">
                             <h4>Heavy Metal</h4>
                             <p>Subtitle</p>
@@ -140,6 +158,9 @@
                     </div>
                     <div class="card col-1-2-xs col-1-4-md col-1-6-lg">
                         <img src="./img/aquietplace.jpeg" alt="albumCover">
+                        <div class="playOnHover">
+                            <i class="fa-regular fa-circle-play"></i>
+                        </div>
                         <div class="textAlignCenter">
                             <h4>Heavy Metal</h4>
                             <p>Subtitle</p>
@@ -147,6 +168,9 @@
                     </div>
                     <div class="card col-1-2-xs col-1-4-md col-1-6-lg">
                         <img src="./img/split.jpeg" alt="albumCover">
+                        <div class="playOnHover">
+                            <i class="fa-regular fa-circle-play"></i>
+                        </div>
                         <div class="textAlignCenter">
                             <h4>Heavy Metal</h4>
                             <p>Subtitle</p>
@@ -154,6 +178,9 @@
                     </div>
                     <div class="card col-1-2-xs col-1-4-md col-1-6-lg">
                         <img src="./img/cure.jpeg" alt="albumCover">
+                        <div class="playOnHover">
+                            <i class="fa-regular fa-circle-play"></i>
+                        </div>
                         <div class="textAlignCenter">
                             <h4>Heavy Metal</h4>
                             <p>Subtitle</p>
@@ -161,6 +188,9 @@
                     </div>
                     <div class="card col-1-2-xs col-1-4-md col-1-6-lg">
                         <img src="./img/sinister.jpeg" alt="albumCover">
+                        <div class="playOnHover">
+                            <i class="fa-regular fa-circle-play"></i>
+                        </div>
                         <div class="textAlignCenter">
                             <h4>Heavy Metal</h4>
                             <p>Subtitle</p>
@@ -205,45 +235,51 @@
         </section>
     </main>
 
+    <!-- FOOTER****** -->
     <footer class="bg-gray fg-white ">
         <div class="bottomBar height100 flex space-between">
-            <div class="leftIcon height100 col-1-3-xs flex align-center justifyCenter">
-                <div class="flex align-center gap-1">
+            <div class="leftIcon height100 col-1-3-xs flex align-center">
+                <div class="flex align-center gap-05">
                     <img id="imgBottomBar" src="./img/sinister.jpeg" alt="">
-                    <div class="flex flex-column">
+                    <div class="flex flex-column fontSize0-6">
                         <span>Sinister</span>
-                        <span>Brano</span>
-                        <span>nome</span>
+                        <a href="#"><span>Brano</span></a>
+                        <a href="#"><span>nome</span></a>
                     </div>
                 </div>
                 <div class="flex flex-column">
-                    <span><i class="fa-regular fa-heart fa-flip"></i></span>
-                    <span><i class="fa-regular fa-folder"></i></span>
+                    <a href="#"><span><i class="fa-regular fa-heart fa-flip"></i></span></a>
+                    <a href="#"><span><i class="fa-regular fa-folder"></i></span></a>
                 </div>
             </div>
-            <div class="centerIcon height100 col-1-3-xs pa-1 flex flex-column spaceAround ">
-                <div class="flex spaceEvenly">
-                    <span><i class="fa-solid fa-shuffle"></i></span>
-                    <span><i class="fa-solid fa-backward-step"></i></span>
-                    <span><i class="fa-regular fa-circle-play"></i></span>
-                    <span><i class="fa-solid fa-forward-step"></i></span>
-                    <span><i class="fa-solid fa-rotate-right"></i></span>
+            <div class="centerIcon height100 col-1-3-xs pa-1 flex flex-column spaceAround">
+                <div class="flex justifyCenter fontSize1-1rem gap-1">
+                    <a class="scaleonHover" href="#"><span><i class="fa-solid fa-shuffle"></i></span></a>
+                    <a class="scaleonHover" href="#"><span><i class="fa-solid fa-backward-step"></i></span></a>
+                    <a class="scaleonHover" href="#"><span><i class="fa-regular fa-circle-play"></i></span></a>
+                    <a class="scaleonHover" href="#"><span><i class="fa-solid fa-forward-step"></i></span></a>
+                    <a class="scaleonHover" href="#"><span><i class="fa-solid fa-rotate-right"></i></span></a>
                 </div>
-                <div class="flex align-center spaceAround">
-                    <span>0:25</span>
+                <div class="flex align-center justifyCenter gap-1">
+                    <a class="scaleonHover" href="#"><span>0:25</span></a>
                     <div class="timeBar">
-                        <div class="timeBarSon"></div>
+                        <a class="scaleonHover" href="#">
+                            <div class="timeBarSon"></div>
+                        </a>
                     </div>
-                    <span>4:35</span>
+                    <a class="scaleonHover" href="#"><span>4:35</span></a>
                 </div>
             </div>
-            <div class="rightIcon col-1-3-xs pa-1 flex align-center spaceEvenly">
-                <span><i class="fa-solid fa-bars"></i></span>
-                <span><i class="fa-solid fa-desktop"></i></i></span>
-                <span><i class="fa-solid fa-volume-high"></i></span>
-                <div class="timeBar">
-                    <div class="timeBarSon"></div>
-                </div>
+            <div class="rightIcon col-1-3-xs pa-1 flex align-center justifyEnd">
+                <a class="scaleonHover" href="#"><span><i class="fa-solid fa-bars"></i></span></a>
+                <a class="scaleonHover" href="#"><span><i class="fa-solid fa-desktop"></i></i></span></a>
+                <a class="scaleonHover" href="#"><span><i class="fa-solid fa-volume-high"></i></span></a>
+                <a class="scaleonHover" href="#">
+                    <div class="timeBar">
+                        <a class="scaleonHover" href="#">
+                            <div class="timeBarSon"></div>
+                        </a>
+                    </div>
             </div>
         </div>
 

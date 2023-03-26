@@ -21,8 +21,20 @@ a {
     color: #7d7f84;
 }
 
+a:hover {
+    color: white;
+}
+
 .textAlignCenter {
     text-align: center;
+}
+
+.fontSize1-1rem {
+    font-size: 1.1rem;
+}
+
+.fontSize0-6 {
+    font-size: 0.6rem;
 }
 
 /******** FLEX **********/
@@ -51,6 +63,10 @@ a {
     justify-content: center;
 }
 
+.justifyEnd {
+    justify-content: end;
+}
+
 
 .align-center {
     align-items: center;
@@ -67,6 +83,11 @@ a {
 .gap-1 {
     gap: 1rem;
 }
+
+.gap-05 {
+    gap: 0.5rem;
+}
+
 
 /******** PADDING **********/
 
