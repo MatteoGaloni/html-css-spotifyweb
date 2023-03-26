@@ -18,6 +18,8 @@ main {
     width: 50px;
     align-items: center;
     padding-left: 0.5rem;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 a>img {
