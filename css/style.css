@@ -99,9 +99,8 @@ a>img {
     width: 100%;
 }
 
-.card>img:hover+.playOnHover {
-    display: block;
-
+.card :hover+.playOnHover {
+    filter: opacity(1);
 }
 
 
@@ -115,7 +114,7 @@ a>img {
     left: 50%;
     top: 43%;
     transform: translate(-50%, -50%);
-    display: none;
+    filter: opacity(0);
     font-size: 35px;
 }
 
@@ -161,11 +160,11 @@ footer {
     background-color: yellowgreen;
 }
 
-/* .timeBarSon:hover+#handle {
-    display: block;
+.volumeBar:hover .handle {
+    background-color: red;
 }
 
-#handle {
+.handle {
     width: 10px;
     height: 10px;
     border-radius: 20px;
@@ -173,8 +172,8 @@ footer {
     position: absolute;
     margin-left: 11px;
     margin-top: -3px;
-    display: none;
-} */
+
+}
 
 
 
