@@ -15,12 +15,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-
 </head>
 
 <body>
-
-    <!-- <header></header> -->
 
     <main class="flex">
         <section class="sidebar flex flex-column space-between bg-black fg-white fg-grey">
@@ -68,34 +65,34 @@
                         </div>
                         <ul id="playlistItem">
                             <a href="#">
-                                <li>Nome Playlist</li>
+                                <li>Only One</li>
                             </a>
                             <a href="#">
-                                <li>Nome Playlist</li>
+                                <li>Le Moulin</li>
                             </a>
                             <a href="#">
-                                <li>Nome Playlist</li>
+                                <li>Purple Rain</li>
                             </a>
                             <a href="#">
-                                <li>Nome Playlist</li>
+                                <li>Requiem</li>
                             </a>
                             <a href="#">
-                                <li>Nome Playlist</li>
+                                <li>The Silver Swan</li>
                             </a>
                             <a href="#">
-                                <li>Nome Playlist</li>
+                                <li>Flow</li>
                             </a>
                             <a href="#">
-                                <li>Nome Playlist</li>
+                                <li>Jazz Morning</li>
                             </a>
                             <a href="#">
-                                <li>Nome Playlist</li>
+                                <li>Rock Now</li>
                             </a>
                             <a href="#">
-                                <li>Nome Playlist</li>
+                                <li>Best Ever</li>
                             </a>
                             <a href="#">
-                                <li>Nome Playlist</li>
+                                <li>Digital 123</li>
                             </a>
                         </ul>
                     </div>
@@ -104,15 +101,15 @@
 
             <!-- Bottom Side Bar -->
 
-            <div class="AppDownloadLink">
+            <div class="AppDownloadLink marginBottom05">
                 <div class="flex">
-                    <a href="#"><span><i class="fa-solid fa-circle-arrow-down"></i></span></a>
+                    <a href="#"><span class="sideBottomIcon"><i class="fa-solid fa-circle-arrow-down"></i></span></a>
                     <a href="#"><span class="displayNone-xs displayBlock-sm pl-05">Installa app</span></a>
                 </div>
                 <hr class="margin05Y displayNone-xs displayBlock-sm">
                 <div class="flex">
-                    <span><i class="fa-solid fa-circle-user"></i></span>
-                    <span class="displayNone-xs displayBlock-sm pl-05">John Doe</span>
+                    <a href="#"> <span class="sideBottomIcon"><i class="fa-solid fa-circle-user"></i></span></a>
+                    <a href="#"><span class="displayNone-xs displayBlock-sm pl-05">Matteo Doe</span></a>
                 </div>
             </div>
 
@@ -238,10 +235,12 @@
     <!-- FOOTER****** -->
     <footer class="bg-gray fg-white ">
         <div class="bottomBar height100 flex space-between">
-            <div class="leftIcon height100 col-1-3-xs flex align-center">
+
+    <!-- Left Bottom Bar****** -->
+            <div id="leftIcon" class="gap-05 height100 col-1-3-xs flex align-center">
                 <div class="flex align-center gap-05">
                     <img id="imgBottomBar" src="./img/sinister.jpeg" alt="">
-                    <div class="flex flex-column fontSize0-6">
+                    <div id="imgDescription" class="flex flex-column fontSize0-6">
                         <span>Sinister</span>
                         <a href="#"><span>Brano</span></a>
                         <a href="#"><span>nome</span></a>
@@ -252,16 +251,18 @@
                     <a href="#"><span><i class="fa-regular fa-folder"></i></span></a>
                 </div>
             </div>
-            <div class="centerIcon height100 col-1-3-xs pa-1 flex flex-column spaceAround">
-                <div class="flex justifyCenter fontSize0-9rem gap-1">
+
+    <!-- Center Bottom Bar****** -->
+            <div class="centerIcon height100 col-1-3-xs flex flex-column justifyCenter">
+                <div id="buttonIcons" class="flex justifyCenter align-center gap-05">
                     <a class="scaleonHover" href="#"><span><i class="fa-solid fa-shuffle"></i></span></a>
                     <a class="scaleonHover" href="#"><span><i class="fa-solid fa-backward-step"></i></span></a>
-                    <a class="scaleonHover fontSize0-9rem" href="#"><span><i
-                                class="fa-regular fa-circle-play fontSize1-1"></i></span></a>
+                    <a class="scaleonHover" href="#"><span><i class="fa-regular fa-circle-play fontSize1-1"></i></span></a>
                     <a class="scaleonHover" href="#"><span><i class="fa-solid fa-forward-step"></i></span></a>
                     <a class="scaleonHover" href="#"><span><i class="fa-solid fa-rotate-right"></i></span></a>
                 </div>
-                <div class="flex align-center justifyCenter gap-05 fontSize0-6">
+            <!-- ******************** -->
+                <div class="flex align-center justifyCenter gap-05">
                     <a class="scaleonHover" href="#"><span>0:25</span></a>
                     <div class="timeBar">
                         <a class="scaleonHover" href="#">
@@ -271,16 +272,19 @@
                     <a class="scaleonHover" href="#"><span>4:35</span></a>
                 </div>
             </div>
-            <div class="rightIcon col-1-3-xs pr-05 flex align-center justifyEnd">
+
+    <!-- Right Bottom Bar****** -->
+            <div id="rightIcon" class="col-1-3-xs gap-05 flex align-center justifyEnd">
                 <a class="scaleonHover" href="#"><span><i class="fa-solid fa-bars"></i></span></a>
                 <a class="scaleonHover" href="#"><span><i class="fa-solid fa-desktop"></i></i></span></a>
                 <a class="scaleonHover" href="#"><span><i class="fa-solid fa-volume-high"></i></span></a>
-                <a class="scaleonHover" href="#">
-                    <div class="volumeBar">
-                        <div class="handle"></div>
-                        <div class="volumeBarSon"></div>
-                    </div>
-                </a>
+                <div class="volumeBar">                
+                    <a class="scaleonHover" href="#">                        
+                        <div class="volumeBarSon">
+                            <div class="handle"></div>
+                        </div>
+                    </a>
+                    </div>                   
             </div>
         </div>
 

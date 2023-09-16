@@ -17,7 +17,6 @@ main {
 .sidebar {
     width: 50px;
     align-items: center;
-    padding-left: 0.5rem;
     overflow-y: auto;
     overflow-x: hidden;
 }
@@ -40,6 +39,12 @@ a>img {
     font-size: 40px;
 }
 
+.sideBottomIcon{
+    font-size: 0.9rem;
+}
+
+
+
 
 
 /* *****MAINCONTAINER***** */
@@ -58,17 +63,6 @@ a>img {
 .callToAction>div {
     text-align: right;
 }
-
-/* .afterLink::after {
-    content: " ";
-    width: 60px;
-    height: 4px;
-    background-color: green;
-    display: block;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-} */
 
 #upgradeBtn {
     width: 150px;
@@ -142,18 +136,26 @@ footer {
 }
 
 #imgBottomBar {
-    height: 30px;
+    height: 40px;
 }
 
-.leftIcon,
-.rightIcon {
-    gap: 0.2rem;
-    padding-left: 0.2rem;
+#leftIcon{
+    padding-left: 0.5rem;
+    
+}
+
+#rightIcon {
+    padding-right: 0.5rem;
+}
+
+
+#buttonIcons{
+    padding-bottom: 0.5rem;
 }
 
 .timeBar {
     background-color: grey;
-    min-width: 80px;
+    width: 100%;
     height: 4px;
     border-radius: 8px;
 
@@ -171,9 +173,6 @@ footer {
     background-color: yellowgreen;
 }
 
-.volumeBar:hover .handle {
-    background-color: red;
-}
 
 .handle {
     width: 10px;
@@ -181,19 +180,19 @@ footer {
     border-radius: 20px;
     background-color: white;
     position: absolute;
-    margin-left: 11px;
+    margin-left: 3%;
     margin-top: -3px;
-
+    
 }
 
 
 
 .volumeBar {
     background-color: grey;
-    min-width: 40px;
+    min-width: 30%;
     height: 4px;
     border-radius: 8px;
-
+    
 }
 
 .volumeBarSon {
@@ -201,10 +200,13 @@ footer {
     width: 30%;
     height: 100%;
     border-radius: 8px;
-
+    
+}
+.volumeBar:hover .handle {
+    background-color: red;
 }
 
-.volumeBarSon:hover {
+.volumeBar:hover .volumeBarSon {
     background-color: yellowgreen;
 }
 
@@ -235,7 +237,10 @@ footer {
     .sidebar {
         width: 200px;
         align-items: start;
+        padding-left: 0.5rem;
     }
+
+
 
     .mainContainer {
         width: calc(100% - 200px);
@@ -246,11 +251,15 @@ footer {
     }
 
     /* FOOTER */
-    .timeBar {
-        width: 120px;
 
+    #imgBottomBar {
+            height: 60px;
     }
 
+    #buttonIcons {
+        font-size: 1rem;
+        gap: 1rem;        
+    }
 }
 
 
@@ -266,10 +275,28 @@ footer {
     /* MAIN CONTENT */
 
     /* FOOTER */
-    .timeBar {
-        width: 160px;
 
+    #buttonIcons {
+        font-size: 1.2rem;
+        gap: 1.5rem;
+        padding-bottom: 0.5rem;
     }
+
+    #leftIcon{
+        font-size: 1.2rem;
+        }
+
+    #imgDescription{
+        font-size: 0.8rem;
+    }
+
+
+    #rightIcon{
+        font-size: 1rem;
+        gap: 1.5rem;
+    }
+
+
 
     #heart-folder {
         flex-direction: row;
@@ -292,10 +319,6 @@ footer {
     /* MAIN CONTENT */
 
     /* FOOTER */
-    .timeBar {
-        width: 200px;
-
-    }
 
 }
 
@@ -311,8 +334,5 @@ footer {
     /* MAIN CONTENT */
 
     /* FOOTER */
-    .timeBar {
-        width: 300px;
 
-    }
 }

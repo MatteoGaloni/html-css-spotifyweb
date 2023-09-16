@@ -18,7 +18,7 @@ ul {
 
 a {
     text-decoration: none;
-    color: #7d7f84;
+    color: #bcbdc1;
 }
 
 a:hover {
@@ -213,6 +213,10 @@ a:hover {
 
 .marginTop05 {
     margin: 0.5rem;
+}
+
+.marginBottom05 {
+    margin-bottom: 0.5rem;
 }
 
 .gap-2 {

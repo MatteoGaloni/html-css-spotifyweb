@@ -36,6 +36,8 @@
 
 
 
+
+
 /****** RESPONSIVE: MOBILE ******/
 
 @media screen and (min-width: 480px) {
@@ -71,6 +73,7 @@
     .displayNone-sm {
         display: none;
     }
+
 }
 
 

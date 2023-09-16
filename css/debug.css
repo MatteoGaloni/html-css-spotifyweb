@@ -1,12 +1,10 @@
 /********* MEDIA QUERIES *********/
 
-/* SMALL MOBILE default */
+/* SMALL MOBILE DEFAULT  */
 
 body.debug {
     background: red;
 }
-
-
 
 /* MOBILE*/
 @media screen and (min-width: 480px) {
@@ -14,7 +12,6 @@ body.debug {
         background: orange;
     }
 }
-
 
 /* TABLET */
 @media screen and (min-width: 768px) {
